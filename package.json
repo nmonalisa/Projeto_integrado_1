@@ -1,0 +1,19 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "Repositório do código do projeto integrador 1 (Univesp). Em construção!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmonalisa/Projeto_integrado_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmonalisa/Projeto_integrado_1/issues"
+  },
+  "homepage": "https://github.com/nmonalisa/Projeto_integrado_1#readme"
+}
