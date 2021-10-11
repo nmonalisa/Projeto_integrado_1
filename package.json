@@ -4,7 +4,8 @@
   "description": "Repositório do código do projeto integrador 1 (Univesp). Em construção!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nmonalisa/Projeto_integrado_1/issues"
   },
-  "homepage": "https://github.com/nmonalisa/Projeto_integrado_1#readme"
+  "homepage": "https://github.com/nmonalisa/Projeto_integrado_1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve": "^12.0.1"
+  }
 }
