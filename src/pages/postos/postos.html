@@ -13,22 +13,17 @@
     </header>
 
    <main class="main-postos">
-       <p class="main-postos-titulo">POSTOS DE COLETA</p>       
-       <div class="main-postos-box-cards">
-          
-         <!-- CARD -->
-           <div class="postos-card">
-               <header class="postos-card-header">Título do Estabelecimento</header>
-               <div>
-                   Endereço do estabelecimento, n 1000. Bairro Qualquer um. São José do Rio Pardo - SP.
-               </div>
-               <div>Contato: </div>
-               <footer> ver no mapa </footer>
-            </div>      
-         <!-- CARD -->        
-         
-   </main>
-   <section class="mapa-postos">Mapa</section>
+        <p class="main-postos-titulo">POSTOS DE COLETA</p>       
+        <div class="main-postos-box-cards">
+    </main>
+   <section class="mapa-box">
+     <iframe 
+        allowfullscreen
+        class="iframe-maps" 
+        loading="lazy" 
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAR_bIwLITFQFdqNgxfbx-eBuhNksbqXfg&q=Cervejaria Dela, São José do Rio Pardo">
+      </iframe>
+   </section>
 
    <footer class="footer-postos">
        <section class="footer-postos-box">
@@ -42,6 +37,6 @@
            </div>
        </section>
    </footer>
-    <script type="text/javascript" src="postos.js"></script>
+    <script type="module" src="postos.js"></script>
 </body>
 </html>
