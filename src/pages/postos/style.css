@@ -1,0 +1,103 @@
+body {
+    background-size: contain;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+
+.header-postos {
+    background-color: #133A1B;
+    color: #E4DEAE;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-postos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main-postos-box-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+
+.main-postos-titulo {
+   /* font-family: 'Permanent Marker', cursive; */
+    color: #133A1B;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 35px 0px 30px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.postos-card-header{
+    font-weight: bold;
+}
+
+.postos-card {
+    background-color: #F6F5E7;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    height: 110px;
+    width: 330px;
+    margin: 10px;
+    padding: 15px;
+    z-index: -1;
+}
+
+.postos-card div {
+    padding: 5px 0px;
+}
+
+.postos-card footer {
+    color: #39842D;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.mapa-postos{
+    border: 1px solid red;
+    margin: 25px 0px;
+    min-height: 30vh;
+}
+
+.footer-postos-box {
+    margin-left: 50px;
+}
+
+.footer-postos-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 5px
+}
+
+.footer-postos-box-icones {
+    margin: 15px 0px;
+}
+
+.footer-postos-icone {
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+.footer-postos {
+    background-color: #011B10;
+    color: #E4DEAE;
+    padding: 20px 0px;
+}
