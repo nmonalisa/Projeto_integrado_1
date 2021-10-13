@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Titulo do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="root">
+    <header class="header-perfil-posto">
+        <div>Olá, bem-vindo!</div>
+        <div>Logo e Nome do App</div>
+        <a href="../../index.html">
+            <img class="header-perfil-posto-logout" src="../../images/sair.png"/>
+        </a>    
+    </header>
+
+    <main class="main-perfil-posto">
+        <p class="main-perfil-posto-titulo">
+            ÁREA DE GERENCIAMENTO DO POSTO DE COLETA
+        </p>
+        <p class="main-perfil-posto-texto"> 
+            Aqui você pode informar quantos vasilhames estão disponíveis no seu estabelecimento 
+            para coleta pela empresa principal (<i>card</i> contador atual). Saiba também o total de vasilhames 
+            devolvidos e que ainda não foram negociados com a empresa (<i>card growlômetro</i>).
+        </p>  
+        <section class="main-perfil-posto-boxCards">
+            <!-- Card Contador-->
+            <div class="perfil-posto-card">
+                <header class="perfil-posto-card-title">CONTADOR ATUAL</header>
+                <div class="perfil-posto-card-conteudo">
+                    <button class="perfil-posto-btn1 btn-count" id="substracao"> - </button>
+                    <button class="perfil-posto-btnCont">42</button>
+                    <button class="perfil-posto-btn2 btn-count" id="adicao"> + </button>
+                </div>
+                <button class="perfil-posto-btnZ">Zerar</button>
+                <button class="perfil-posto-btnG">Gravar</button>
+            </div>
+
+            <!-- Card Growlômetro-->
+            <div class="perfil-posto-card">
+                <header class="perfil-posto-card-title">GROWLÔMETRO</header>
+                <div class="perfil-posto-card-conteudo2">
+                    <img class="perfil-posto-growlometro-img" src="../../images/bottle-carrier.png" />                    
+                    <div class="perfil-posto-growlometro-total">62</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-perfil-posto">
+        <section class="footer-perfil-posto-box">
+            <div class="footer-perfil-posto-titulo">
+                Cervejaria Dela
+            </div>
+            <div>Endereço da Cervejaria, n.000. São José do Rio Pardo - SP.</div>
+            <div class="footer-perfil-posto-box-icones">
+                <a href="https://www.instagram.com/cervejariadela/"><img class="footer-perfil-posto-icone" src="../../images/instagram.png" /></a>
+                <img class="footer-perfil-posto-icone" src="../../images/whatsapp.png" /> 
+            </div>
+        </section>
+    </footer>
+    <script type="module" src="perfil_posto.js"></script>
+</body>
+</html>
