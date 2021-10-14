@@ -8,7 +8,7 @@ const contador = document.querySelector(".perfil-posto-btnCont")
 function getIDPostoColeta(){
     // Lógica para conhecer o id do posto que está acessando o site
     // essa identificação deverá vir da página de login
-    const fakeID = 2
+    const fakeID = 12
     return fakeID
 }
 
@@ -19,7 +19,9 @@ function getDadosColetaDoPosto(){
 
 function atualizarContadorAtualNaTela(){
     const dados_coleta = getDadosColetaDoPosto()
-    contador.innerHTML = dados_coleta[0].contador_atual
+    if (dados_coleta.length != 0){
+        contador.innerHTML = dados_coleta[0].contador_atual
+    }  
 }
 
 //-- Manipulação do contador de acordo com o click do usuário
