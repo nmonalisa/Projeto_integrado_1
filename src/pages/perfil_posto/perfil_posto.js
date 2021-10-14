@@ -1,4 +1,4 @@
-import dados from "./dados_fake.js";
+import dados from "../../utils/dados_fake/dados_coleta.js";
 
 //-- Variáveis globais
 const contador = document.querySelector(".perfil-posto-btnCont")
@@ -8,7 +8,7 @@ const contador = document.querySelector(".perfil-posto-btnCont")
 function getIDPostoColeta(){
     // Lógica para conhecer o id do posto que está acessando o site
     // essa identificação deverá vir da página de login
-    const fakeID = 3
+    const fakeID = 2
     return fakeID
 }
 

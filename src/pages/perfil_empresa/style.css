@@ -1,0 +1,168 @@
+body {
+    background-size: contain;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+.header-empresa {
+    background-color: #133A1B;
+    color: #E4DEAE;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    font-size: 1.1rem;
+}
+
+.header-empresa-logout {
+    height: 30px;
+    width: 30px;
+}
+
+.main-empresa {
+    width: 60%;
+    min-height: 71vh;
+    margin: 0px auto;
+}
+
+.main-empresa-titulo {
+    /* font-family: 'Permanent Marker', cursive; */
+     color: #133A1B;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 1.5rem;
+     margin: 35px 0px 30px 0px;
+     text-align: center;
+ }
+
+ .main-empresa-texto {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 75%;
+    margin: 0px auto;
+    line-height: 1.5;
+ }
+
+ .main-empresa-boxCards {
+    text-align: center;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.empresa-card {
+    background-color: #F6F5E7;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    height: 180px;
+    width: 350px;
+    margin: 3% 10px;
+    padding: 15px;  
+}
+
+.empresa-card-title {
+    font-weight: bold;
+    border-bottom: 1px solid #39842D;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+.empresa-card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 7px 0px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 200;
+    border-bottom: 1px solid lightgray;
+}
+
+.empresa-card button {
+    padding: 8px;
+    width: 30%;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.empresa-card button:hover {
+    cursor: pointer;
+}
+
+.empresa-card-boxBtn {
+    margin: 15px 5px;
+}
+
+.empresa-card-btnR {
+    background-color:gray    
+}
+
+.empresa-card-btnR:hover {
+    background-color: #565645;
+}
+
+.empresa-card-btnDel {
+    background-color: red  
+}
+
+.empresa-card-btnDel:hover {
+    background-color: darkred
+}
+
+.footer-empresa {
+    background-color: #011B10;
+    color: #E4DEAE;
+    padding: 20px 0px;
+}
+
+.footer-empresa-box {
+    margin-left: 50px;
+}
+
+.footer-empresa-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 5px
+}
+
+.footer-empresa-box-icones {
+    margin: 15px 0px;
+}
+
+.footer-empresa-icone {
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+
+@media (max-width: 600px) {
+    .main-empresa {
+        width: 90%
+     }
+
+     .footer-empresa-box {
+        margin-left: 20px;
+        font-size: 0.8rem;
+     }
+     
+     .header-empresa {
+        padding: 0px 20px;
+    }
+    .main-empresa-titulo,
+    .main-empresa-texto {
+        width: 90%;
+        font-size: 0.9rem;
+        margin: 25px auto;
+    }
+}

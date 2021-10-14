@@ -82,8 +82,11 @@ body {
 .postos-card footer {
     color: #39842D;
     font-weight: bold;
-    display: flex;
-    justify-content: end;
+    text-align: end;
+    width: 30%;
+    position: relative;
+    left: 240px;
+    top: 10px;
 }
 
 .postos-card-click-btn:hover {
