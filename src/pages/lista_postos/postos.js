@@ -1,4 +1,4 @@
-import lista_postos_coleta from "./dados_fake.js";
+import lista_postos_coleta from "../../utils/dados_fake/dados_postos.js";
 import api_key from "../../utils/api_key.js"
 
 // Carregar lista de postos do banco de dados:

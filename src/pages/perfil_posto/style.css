@@ -28,7 +28,6 @@ body {
     margin: 0px auto;
 }
 
-
 .main-perfil-posto-titulo {
     /* font-family: 'Permanent Marker', cursive; */
      color: #133A1B;
@@ -111,8 +110,6 @@ body {
 .perfil-posto-btnG {
     color: green
 }
-
-
 
 .perfil-posto-btnZ:hover,
 .perfil-posto-btnG:hover,
