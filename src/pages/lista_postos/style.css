@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-  }
+ }
 
 .header-postos {
     background-color: #133A1B;
@@ -30,6 +30,9 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+    max-width: 2200px;
+    margin: 0px auto;
+
 }
 
 .main-postos-box-cards {
@@ -37,7 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 60%;
+    max-width: 50%;
 }
 
 .main-postos-titulo {
@@ -107,6 +110,12 @@ body {
 
 .footer-postos-box-icones {
     margin: 15px 0px;
+    display: flex;
+}
+
+.footer-postos-box-icones div {
+    display: flex;
+    align-items: center;
 }
 
 .footer-postos-icone {
@@ -138,23 +147,25 @@ body {
 }
 
 @media (max-width: 450px) {
-    .iframe-maps {
-        width: 250px;
+     .postos-card footer {
+         width: 100px;
+         left: 190px;
+         top: 0px
      }
 
-     .postos-card {
+    .postos-card {
         width: 300px;
+    }
+
+    .mapa-box {
+        width: 85%;
+        margin: 20px auto;
     }
 }
 
-@media (max-width: 500px) {
-    .iframe-maps {
-        width: 310px;
-     }
-}
-
-@media (max-width: 780px) {
-    .iframe-maps {
-        width: 500px;
-     }
+@media (max-width: 800px) {
+    .mapa-box {
+        width: 85%;
+        margin: 20px auto;
+    }
 }
