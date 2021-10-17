@@ -10,12 +10,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body id="root">
-    <p>Página inicial (atribuição Philipp) </p>
-
-    Acesso para páginas feitas por Monalisa:</br>
-    <a href="pages/lista_postos/postos.html">Ir para lista de postos de coleta</a></br>
-    <a href="pages/perfil_posto/perfil_posto.html">Ir para perfil do posto de coleta depois do login</a></br>
-    <a href="pages/perfil_empresa/empresa.html">Ir para perfil do posto da empresa principal depois do login</a></br>
-    <script type="text/javascript" src="index.js"></script>
-</body>
+    <!-- Início do Header -->
+    <header id="header" class="header-postos">
+        <a href=""><div class="header-postos-logo"></div></a>
+        <div>Nome do App</div>  
+    </header>
+    <!-- Fim do Header -->
+  
+    <!-- Início do corpo -->
+    <div class="container">
+      <div class="main-text" align="center">
+        <h4>Você sabe o que é Logística Reversa?</h4>
+        <p>Um ou mais parágrafos sobre o que é logística reversa e </br> como as iniciativas do usuário em depositar seus </br> recipientes e da Cervejaria Dela em recolhê-los pode </br> contribuir com esse processo.</p>
+      </div>
+  
+      <div class="stripe"></div>
+  
+      <div class="secondary-text" align="center">
+        <h4>Quer descartar seu vasilhame da Cervejaria Dela?</h4>
+        <button class="button button1" onclick="location.href = './pages/lista_postos/postos.html' "><i>POSTOS DE COLETA</i></button>
+      </div>
+  
+      <div class="img-photo">
+        <img src="./images/home_logistica_reversa_transparencia50.png"/> 
+      </div>
+    </div>
+    <!-- Fim do corpo -->
+  
+    <!-- Início do Footer -->
+    <footer class="footer-postos">
+      <section class="footer-postos-box">
+          <div class="footer-postos-titulo">
+              Cervejaria Dela
+          </div>
+          <div>Endereço da Cervejaria, n.000. São José do Rio Pardo - SP.</div>
+          <div class="footer-postos-box-icones"></div>
+            <a href="https://www.instagram.com/cervejariadela/"><img class="footer-postos-icone" src="./images/instagram.png" /></a>
+            <img class="footer-postos-icone" src="./images/whatsapp.png" />
+          </div>
+      </section>
+  
+      <section class="footer-btn">
+        <button class="adminBtn" onclick="location.href = './pages/login/index.html' ">
+          <i>Área de Gerenciamento</i>
+        </button>
+      </section>
+    </footer>
+    <!-- Fim do Footer -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>

@@ -7,7 +7,143 @@ body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    overflow-y: hidden;
     padding: 0;
     width: 100vw;
-  }
+}
+
+.header-postos {
+    background-color: #133A1B;
+    color: #E4DEAE;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.header-postos-logo {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-right: 5px;
+    border-radius: 25px;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -5px 2px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 77vh;
+}
+
+.stripe {
+    height: 1px;
+    width: 25%;
+    background-color: #96B753;
+    margin: 0px 0px 30px 0px;
+}
+
+.main-text {
+    margin: 35px 0px 0px 0px;
+}
+
+.secondary-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 45px 0px;
+}
+
+.button1 {
+    background-color: #96B753;
+}
+
+.img-photo {
+    margin-bottom: -5px;
+}
+
+.footer-postos-box {
+    margin-left: 50px;
+}
+
+.footer-postos-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 5px
+}
+
+.footer-postos-box-icones {
+    margin: 15px 0px;
+}
+
+.footer-postos-icone {
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+.footer-postos {
+    background-color: #011B10;
+    color: #E4DEAE;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminBtn {
+    border-radius: 10px;
+    color: #fff;
+    border-color: #96B753;
+    border-width: 1px;
+    background-color: #011B10;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+    .footer-postos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .adminBtn {
+        margin-top: 10%;
+        margin-right: 0px;
+    }
+
+    .footer-postos-box {
+        text-align: center;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+}
+
+@media (max-width: 780px) {
+}
