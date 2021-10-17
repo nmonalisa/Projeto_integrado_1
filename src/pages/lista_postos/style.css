@@ -38,6 +38,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 60%;
+    max-width: 1000px;
 }
 
 .main-postos-titulo {
@@ -138,23 +139,20 @@ body {
 }
 
 @media (max-width: 450px) {
-    .iframe-maps {
-        width: 250px;
-     }
+    .postos-card footer {
+        width: 100px;
+        left: 65%;
+        top: 0px;
+    }
 
-     .postos-card {
+    .postos-card {
         width: 300px;
     }
 }
 
-@media (max-width: 500px) {
-    .iframe-maps {
-        width: 310px;
-     }
-}
-
 @media (max-width: 780px) {
-    .iframe-maps {
-        width: 500px;
+    .mapa-box {
+        width: 85%;
+        margin: 20px auto;
      }
 }

@@ -26,6 +26,7 @@ body {
 .main-perfil-posto {
     width: 70%;
     margin: 0px auto;
+    min-height: 71vh;
 }
 
 .main-perfil-posto-titulo {
