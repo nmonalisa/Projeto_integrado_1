@@ -25,6 +25,13 @@ body {
     border-radius: 25px;
 }
 
+.logo {
+    width: 44px;
+    height: 44px;
+    margin-right:  10px;
+    border-radius: 22px;
+ }
+
 .main-postos {
     display: flex;
     flex-wrap: wrap;
