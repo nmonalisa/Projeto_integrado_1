@@ -150,6 +150,9 @@ body {
     .home-text {
         max-width: 80%;
     }
+    .secondary-text {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 780px) {
