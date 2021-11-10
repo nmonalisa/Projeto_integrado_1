@@ -1,7 +1,7 @@
 # Projeto_integrador I
 
 Repositório de código do projeto Eco Return, desenvolvido como proposta da disciplina Projeto Integrador I da Univesp. <br><br>
-**Grupo 04 - Campus Butanta (Eixo Computação)** <br>
+**Grupo 04 - Campus Butantã (Eixo Computação)** <br>
 Integrantes: <br>
 Carlos Andrei Suganuma <br>
 Fernando Cunha <br>
