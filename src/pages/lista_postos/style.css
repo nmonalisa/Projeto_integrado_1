@@ -116,8 +116,8 @@ body {
 }
 
 .footer-postos-box-icones {
-    margin: 15px 0px;
     display: flex;
+    margin-top: 5px
 }
 
 .footer-postos-box-icones div {
