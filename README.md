@@ -1,5 +1,11 @@
-# Projeto_integrador
-Repositório do código do projeto integrador 1 (Univesp). <br>
-Link provisório do site: https://nmonalisa.github.io/Projeto_integrador/src/index.html <br>
+# Projeto_integrador I
 
------> Em construção! <-----
+Repositório de código do projeto Eco Return, desenvolvido como proposta da disciplina Projeto Integrador I da Univesp. <br><br>
+**Grupo 04 - Campus Butanta.** <br>
+Integrantes: <br>
+Carlos Andrei Suganuma <br>
+Fernando Cunha <br>
+Thomaz Elias <br>
+Ricardo Maluf Horta <br>
+Nathalia Monalisa Francisco <br>
+Philipp Teles Fernandes Erwin Hahmann <br>
