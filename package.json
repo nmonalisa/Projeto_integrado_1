@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve src/"
-
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/nmonalisa/Projeto_integrado_1/issues"
   },
-  "homepage": "https://github.com/nmonalisa/Projeto_integrado_1#readme"
+  "homepage": "https://github.com/nmonalisa/Projeto_integrado_1#readme",
+  "dependencies": {
+    "firebase": "^8.10.0",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
 }
