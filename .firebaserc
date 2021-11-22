@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "eco-return"
-  }
+    "default": "eco-return",
+    "hosting": "eco-return"
+  },
+  "targets": {}
 }
